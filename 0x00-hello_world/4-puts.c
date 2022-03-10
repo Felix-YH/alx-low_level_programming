@@ -1,11 +1,14 @@
 #include <stdio.h>
-/*
+
+/**
  * main - This code print string using
  * puts
+ *
+ * Return: Always 0
  */
 int main(void)
 {
-	char ch[] = "Programming is like bulding a multilngual puzzle";
-	puts(ch);
+	puts("\"Programming is like bulding a multilngual puzzle");
+
 	return (0);
 }
