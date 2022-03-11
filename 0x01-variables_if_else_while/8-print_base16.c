@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print all numbers in 
+ * main - print all numbers in
  * base 16 using putchar
  *
  * Return: 0 Always
