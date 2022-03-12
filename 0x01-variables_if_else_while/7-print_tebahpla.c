@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print all alphabet at once 
+ * main - print all alphabet at once
  * but in reverse using putchar
  *
  * Return: 0 Always
