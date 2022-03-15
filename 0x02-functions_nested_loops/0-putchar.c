@@ -1,13 +1,12 @@
-#include <unistd.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - print _putchar to screen
- * @char: the character
+ *
  *Return: 0 Always
  */
 
-int _putchar(char);
+
 int main(void)
 {
 	_putchar(95);
@@ -21,13 +20,4 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
-/**
- * _putchar - print the character c to stdout
- * @c: The charatcer to print
- *
- * Return: 1 on success
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+
