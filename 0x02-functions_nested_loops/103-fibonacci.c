@@ -3,7 +3,7 @@
 /**
  * main - prints the sum of the even-valued terms
  * followed by a new line
- * Return: 0 Always 
+ * Return: 0 Always
  */
 int main(void)
 {
@@ -28,4 +28,5 @@ int main(void)
 	printf("%lu\n", sum);
 
 	return (0);
+
 }

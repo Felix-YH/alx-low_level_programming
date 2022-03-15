@@ -3,7 +3,7 @@
 /**
  * main - calculate and prints the sum of all the multiples
  * of 3 or 5 below 1024
- * Return: 0 Always 
+ * Return: 0 Always
  */
 int main(void)
 {
@@ -25,6 +25,7 @@ int main(void)
 		}
 	}
 	add = add3 + add5;
-	printf("%lu\n", sum);
+	printf("%lu\n", add);
 	return (0);
+
 }
