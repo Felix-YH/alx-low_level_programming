@@ -6,7 +6,7 @@
  *@n: number
  */
 
-vvoid print_times_table(int n)
+void print_times_table(int n)
 {
 	int i, j, k;
 
