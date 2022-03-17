@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print_triangle - print a triangle aligned right, using '#'
+ * print_triangle - print a triangle right, using #
  * @size: Size of triangle
  */
+
 void print_triangle(int size)
 {
 	int c, i, j;
