@@ -17,20 +17,22 @@ int main(void)
 
 		if (j == 0 && k == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
 		else if (k == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else if (j == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
 		else
 		{
 			printf("%d ", i);
 		}
+		if (i != 100)
+			printf(" ");
 	}
 	printf("\n");
 	return (0);
