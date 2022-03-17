@@ -15,13 +15,17 @@ int main(void)
 		j = i % 3;
 		k = i % 5;
 
-		if (j == 0)
+		if (j == 0 && k == 0)
 		{
-			printf("Fizz ");
+			printf("FizzBuzz ");
 		}
 		else if (k == 0)
 		{
 			printf("Buzz ");
+		}
+		else if (j == 0)
+		{
+			printf("Fizz ");
 		}
 		else
 		{
