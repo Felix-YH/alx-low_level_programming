@@ -6,7 +6,7 @@
  * Return: values
  */
 
-vvoid more_numbers(void)
+void more_numbers(void)
 {
 	int c, i;
 
