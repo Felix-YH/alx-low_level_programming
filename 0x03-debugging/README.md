@@ -4,4 +4,6 @@
 
   Task 1 -- Debug an infinite loop
 
-  Task 2 -- 
+  Task 2 -- Debug a code that print the largest of two numbers
+
+  Task 3 -- Debug a code that write a day and the remainder of the year in day
