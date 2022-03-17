@@ -1,28 +1,26 @@
 #include "main.h"
 
 /**
- * print_square - print a square
- * @size: size of square
- * Description: Can only use _putchar to print. Use '#' to print square.
+ * more_numbers - print 10 times the numbers from 0 to 14
+ * 
  */
-void print_square(int size)
+void more_numbers(void)
 {
-	int x, y;
+	int c, i;
 
-	y = 0;
-
-	if (size < 1)
-		_putchar('\n');
-
-	while (y < size)
+	c = 0;
+	while (c < 10)
 	{
-		x = 0;
-		while (x < size)
+		i = 0;
+		while (i < 15)
 		{
-			_putchar('#');
-			x++;
+			if (i > 9)
+				_putchar(i / 10 + '0');
+
+			_putchar(i % 10 + '0');
+			i++;
 		}
+		c++;
 		_putchar('\n');
-		y++;
 	}
 }
