@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+ * main - keygen
+ * Return: 0 Always
+ **/
+
 int main(void)
 {
 	int myrand;
@@ -18,4 +23,5 @@ int main(void)
 	printf("%c", total);
 
 	return (0);
+
 }
