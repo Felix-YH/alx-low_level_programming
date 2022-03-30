@@ -106,4 +106,5 @@ char *move(char *s2)
 		return (move(s2 + 1));
 	else
 		return (s2);
+	
 }
