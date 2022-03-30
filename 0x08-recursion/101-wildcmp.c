@@ -74,6 +74,7 @@ int wildcmp(char *s1, char *s2)
  *
  * Return: return value of wildcmp() or of itself
  */
+
 int bandersnatch(char *s1, char *s2)
 {
 	/**
@@ -94,6 +95,7 @@ int bandersnatch(char *s1, char *s2)
  *
  * Return: the address of the character after the *
  */
+
 char *move(char *s2)
 {
 	/**
