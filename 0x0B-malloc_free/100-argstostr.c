@@ -1,8 +1,3 @@
-/*
- * File: 5-argstostr.c
- * Auth: Brennan D Baraban
- */
-
 #include "holberton.h"
 #include <stdlib.h>
 
@@ -18,7 +13,7 @@
 char *argstostr(int ac, char **av)
 {
 	char *str;
-	int arg, byte, index, size = ac;
+	int arg, byte, index;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
