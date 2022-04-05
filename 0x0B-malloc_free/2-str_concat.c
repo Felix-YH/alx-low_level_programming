@@ -30,6 +30,9 @@ char *str_concat(char *s1, char *s2)
 
 	cbine = malloc(sizeof(char) * (len));
 
+	if (cbine == NULL)
+		return (NULL);
+
 	for (i = 0; s1[i]; i++)
 	{
 		cbine[j] = s1[i];
@@ -41,8 +44,6 @@ char *str_concat(char *s1, char *s2)
 		cbine[j] = s2[i];
 		j++;
 	}
-
-	cbine[len] = '\0';
 
 	return (cbine);
 }
