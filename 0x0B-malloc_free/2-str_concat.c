@@ -44,7 +44,6 @@ char *str_concat(char *s1, char *s2)
 		cbine[j] = s2[i];
 		j++;
 	}
-	cbine = '\0';
 
 	return (cbine);
 }
