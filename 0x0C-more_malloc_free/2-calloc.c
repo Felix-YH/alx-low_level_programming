@@ -12,14 +12,18 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *memca;
+	unsigned i;
 
-	memca = malloc(sizeof(int) * nmemb);
+	memca = malloc(size * nmemb);
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
 	if ( memca == NULL)
 		return (NULL);
+
+	for (i = 0; i < nmemb; i++)
+		memca[i] = 0;
 
 	return (memca);
 }
