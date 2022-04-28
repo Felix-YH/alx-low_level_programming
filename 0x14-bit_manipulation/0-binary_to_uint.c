@@ -1,7 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * binary_to_uint - convert a binary number to unit
  * @b: pointer that stores the number
@@ -14,8 +11,9 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int cnum = 0, mul = 1;
 	int i = 0;
 
-	if (b == NULL)
+	if (b == '\0')
 		return (0);
+
 	for (i = 0; b[i];)
 		i++;
 
