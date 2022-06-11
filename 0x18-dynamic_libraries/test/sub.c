@@ -2,10 +2,10 @@
 
 /**
  * sub - subtract two integers
- * @i: first integer
- * @j: second integer
+ * @a: first integer
+ * @b: second integer
  *
- * Return: sum of i and j
+ * Return: sum of a and b
  */
 int sub(int a, int b)
 {
