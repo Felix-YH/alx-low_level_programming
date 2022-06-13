@@ -1,0 +1,15 @@
+#include "main.h"
+
+/**
+ * mul - multiple two integers
+ * @a: first number
+ * @b: second number
+ *
+ * Return: Answer
+ */
+
+int mul(int a, int b)
+{
+	return (a * b);
+}
+
